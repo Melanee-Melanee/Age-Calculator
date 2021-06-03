@@ -5,9 +5,6 @@ root = Tk()
 root.geometry('650x500')
 root.title('Age Calculator')
 
-
-
-
 def calculateAge():
     today = date.today()
     birthDate = date(int(yearEntry.get()), int(monthEntry.get()), int(dayEntery.get()))
