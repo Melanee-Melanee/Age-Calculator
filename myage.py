@@ -5,9 +5,7 @@ root = Tk()
 root.geometry('650x500')
 root.title('Age Calculator')
 
-# photo = PhotoImage(file='age.png')
-# myimage = Label(Image=photo)
-# myimage.grid(row=0, column=1)
+
 
 
 def calculateAge():
