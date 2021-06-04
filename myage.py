@@ -5,6 +5,12 @@ root = Tk()
 root.geometry('650x500')
 root.title('Age Calculator')
 
+
+photo = PhotoImage(file="age.png")
+myimage = Label(image=photo)
+myimage.grid(row=0, column=1)
+
+
 def calculateAge():
     today = date.today()
     birthDate = date(int(yearEntry.get()), int(monthEntry.get()), int(dayEntery.get()))
